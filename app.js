@@ -10,7 +10,7 @@ const name = "Simant"
 console.log(name)
 
 // Array example
-const names = ["Ram", "Sam"]
+const names = ["Ram", "Sita"]
 console.log(names[0])
 
 // Object example
