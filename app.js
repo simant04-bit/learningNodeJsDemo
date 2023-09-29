@@ -29,7 +29,11 @@ const dataofperson = {
 console.log("His profession is: " + dataofperson.profession)
 
 app.get("/", (req,res)=>{
-    res.send("Hello. This is a new page.")
+    // res.send("Hello. This is a new page.")
+    res.json({
+        simant : "I am a student",
+        status : "single"
+    })
 })
 
 app.get("/about", (req,res)=>{
